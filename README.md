@@ -1,9 +1,9 @@
-# odaf
+# ODAF
 Open Digital Assistant Framework
 
 ![alt text](https://github.com/ajdfnwjf/odaf/blob/master/ODAFArchitectureOverview.png)
 
-High Level Model Description
+# High Level Model Description
 
 1.	There can be multiple clients attached to a digital assistant (DA) that have different capabilities. These clients have to be controlled. Therefore all messages run through a central client control function.
 2.	Centerpiece of a DA are the dialogs. Templates for these dialogs are stored in separate files. Dialogs can be triggered via incoming messages, time triggers or data triggers. There needs to be a central dialog state manager function. Actions that are executed as part of a dialog are separated into core, open access and private actions. Core actions are necessary for the DA functionality. Open source and private actions are domain specific and might use their own data.
